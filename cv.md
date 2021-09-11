@@ -5,6 +5,7 @@
 
 ## Profile ##
 
+Detail-oriented Software Engineer with 3 years of experience and a zest for solving complex problems. Seeking to further improve HTML5 and CSS3 skills as the future full stack developer.
 
 ## Contact ##
 
