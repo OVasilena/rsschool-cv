@@ -1,0 +1,97 @@
+.container-main {
+  background-color: var(--color-white);
+
+  .aside {
+    background-color: var(--color-secondary);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+
+    .profile-avatar {
+      display: block;
+      text-align: center;
+      position: relative;
+
+      img {
+        width: 200px;
+        border-radius: 50%;
+      }
+
+      figcaption {
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+        margin: 0 auto;
+        color: var(--text-color);
+      }
+    }
+
+    .title {
+      text-transform: uppercase;
+      margin-left: 2rem;
+      padding-left: 1rem;
+      background-color: var(--color-primary);
+      color: var(--color-white);
+    }
+
+    section {
+      ul {
+        margin-left: 1rem;
+      }
+
+      p {
+        margin-left: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+
+    }
+  }
+
+  .container-info {
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+
+    section {
+      padding-top: 4rem;
+    }
+
+    .title {
+      background-color: var(--color-secondary);
+      color: var(--text-color);
+      padding-left: 1rem;
+      text-transform: uppercase;
+    }
+
+    .desc {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .desc:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+
+    .code > pre {
+      overflow-x: auto;
+      tab-size: 4;
+      background-color: var(--color-bg);
+      padding-right: 1rem;
+      padding-left: 1rem;
+      margin-right: 2rem;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container-main {
+    display: flex;
+  }
+
+  .aside {
+    width: 40%;
+  }
+
+  .container-info {
+    width: 60%;
+  }
+}
