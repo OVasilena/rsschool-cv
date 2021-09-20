@@ -1,6 +1,7 @@
 .container-main {
   background-color: var(--color-white);
 
+  /* personal contact and info */
   .aside {
     background-color: var(--color-secondary);
     padding-top: 2rem;
@@ -21,7 +22,15 @@
         width: 100%;
         bottom: 10px;
         margin: 0 auto;
-        color: var(--text-color);
+
+        small {
+          padding-right: 0.5rem;
+          padding-left: 0.5rem;
+          border-radius: 50%;
+          background-color: var(--color-primary);
+          color: var(--color-white);
+          text-transform: uppercase;
+        }
       }
     }
 
@@ -36,6 +45,34 @@
     section {
       ul {
         margin-left: 1rem;
+
+        li {
+          display: flex;
+          align-items: center;
+
+          .skills-bar {
+            margin-left: 2rem;
+            margin-right: 2rem;
+          }
+        }
+
+        li > i {
+          padding-right: 2rem;
+          color: var(--text-color);
+          line-height: 2;
+        }
+
+        .skills-bar {
+          width: 90%;
+          height: 10px;
+          background-color: #fff;
+        }
+
+        .skills-bar-html {
+          width: 80%;
+          height: 8px;
+          background-color: green;
+        }
       }
 
       p {
@@ -47,6 +84,7 @@
     }
   }
 
+  /* personal experience and education */
   .container-info {
     margin-left: 2rem;
     padding-bottom: 1rem;
