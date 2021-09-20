@@ -1,0 +1,17 @@
+{
+  "name": "html-cv",
+  "version": "0.0.1",
+  "description": "Task: HTML, CSS & Git Basics",
+  "scripts": {
+    "build-css": "node-sass -w assets/styles/style.scss assets/packaged/style.dist.css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:OVasilena/rsschool-cv.git"
+  },
+  "author": "Olga Podlubnja",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
